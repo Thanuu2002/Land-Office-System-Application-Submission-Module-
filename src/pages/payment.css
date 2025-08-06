@@ -1,0 +1,124 @@
+/* payment.css */
+.payment-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #004080;
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+  color: #555;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px; /* Add some space below the form */
+}
+
+label {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #004080;
+  outline: none;
+}
+
+/* Style for the Pay Now button using the .pay-now-btn class */
+.pay-now-btn {
+  background-color: #004080;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pay-now-btn:hover {
+  background-color: #003366;
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.pay-now-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 64, 128, 0.5); /* Glow effect on focus */
+}
+
+.pay-now-btn:active {
+  background-color: #002a47; /* Darker shade when clicked */
+  transform: scale(0.98); /* Shrink button when clicked */
+}
+
+/* Container for the action buttons (Pay Now and Back) */
+.button-container {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between buttons as needed */
+}
+
+/* Style for the Back button */
+.back-btn button {
+  background-color: #dc3545; /* Example red color */
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 20px; /* Match padding with Pay Now */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex-grow: 1; /* Make buttons take equal width */
+  text-align: center; /* Center the text */
+}
+
+.back-btn button:hover {
+  background-color: #c82333; /* Darker shade on hover */
+}
+
+.back-btn button:focus {
+  outline: none;
+}
+
+input[type="text"],
+input[type="number"] {
+  max-width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #004080;
+}
+
+input[required] {
+  box-shadow: none;
+}
+
+input[maxLength] {
+  text-transform: uppercase;
+}

@@ -1,0 +1,60 @@
+/* src/pages/landregister.css */
+.landregister-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .landregister-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .landregister-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .landregister-form input, 
+  .landregister-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .landregister-form .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .landregister-form .submit-btn, 
+  .landregister-form .back-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    background-color: #003366;
+    color: white;
+  }
+  
+  .back-btn {
+    background-color: #d33;
+    color: white;
+  }
+  
+  
