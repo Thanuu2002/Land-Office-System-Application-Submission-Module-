@@ -1,0 +1,79 @@
+/* Full page reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f2f6fa;
+  }
+  
+  /* Deed Form Container */
+  .deeds-container {
+    padding: 30px;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Title */
+  .form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #003366;
+  }
+  
+  /* Form Layout */
+  .deeds-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Individual Form Group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label */
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  /* Input Fields and Textarea */
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Button Group */
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .submit-btn,
+  .back-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #003366;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  
+  .submit-btn:hover,
+  .back-btn:hover {
+    background-color: #002244;
+  }

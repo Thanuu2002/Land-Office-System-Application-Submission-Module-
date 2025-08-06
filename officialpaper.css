@@ -1,0 +1,97 @@
+/* src/pages/officialpaper.css */
+
+.officialpaper-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f7fc;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+  }
+  
+  h1 {
+    color: #003366;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .officialpaper-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
+  .officialpaper-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .officialpaper-form label {
+    font-size: 16px;
+    color: #003366;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .officialpaper-form input,
+  .officialpaper-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .officialpaper-form input:focus,
+  .officialpaper-form textarea:focus {
+    border-color: #003366;
+  }
+  
+  .officialpaper-form .textarea {
+    min-height: 100px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .submit-btn,
+  .back-btn {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48%;
+  }
+  
+  .submit-btn {
+    background-color: #003366;
+  }
+  
+  .submit-btn:hover {
+    background-color: #00224d;
+  }
+  
+  .back-btn {
+    background-color: #d33;
+  }
+  
+  .back-btn:hover {
+    background-color: #a32929;
+  }
+  

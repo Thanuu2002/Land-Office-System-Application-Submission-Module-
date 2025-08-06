@@ -1,0 +1,97 @@
+/* Home.css */
+
+html, body, #root, .home-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #004481;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #ddd;
+}
+
+/* Logo Container Styles */
+.logo-container {
+  display: flex;
+  justify-content: center; /* Center the logo horizontally */
+  padding: 2rem 0;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+/* Main Content Styles */
+.main-content {
+  
+  display: flex;
+   /* Keep items stacked vertically */
+  /*align-items: center;*/ /* Center items horizontally */
+  padding: 2rem 0;
+  justify-content: center; /* Also center text within the h1 */
+}
+
+.main-content h1 {
+  font-size: 2.5rem;
+  color: #004481;
+  margin-bottom: 1rem;
+  
+  justify-content: center;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #004481;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  color: #ddd;
+}
